@@ -2,7 +2,7 @@
 
 describe('SauceDemo', () => {
   //Cenário 1
-  it.skip('Login e Navegação', () => {
+  it('Login e Navegação', () => {
     //Acessa a página
     cy.visit('https://www.saucedemo.com');
 
@@ -35,7 +35,7 @@ describe('SauceDemo', () => {
   });
 
   //Cenário 3
-  it.skip('Adição de Produtos ao Carrinho', () => {
+  it('Adição de Produtos ao Carrinho', () => {
     //Acessa a página
     cy.visit('https://www.saucedemo.com');
 
